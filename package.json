@@ -1,0 +1,35 @@
+{
+  "name": "ternary-theme",
+  "version": "0.0.0",
+  "description": "Control your light, dark, and automatic themes.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "fmt": "dprint fmt"
+  },
+  "devDependencies": {
+    "@startracex/dev-config": "^0.4.2",
+    "@types/react": "^19.1.8",
+    "dprint": "^0.50.1",
+    "typescript": "^5.8.3"
+  },
+  "exports": {
+    "./*.js": "./build/*.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "build",
+    "src"
+  ],
+  "keywords": [
+    "theme",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startracex/ternary-theme.git"
+  },
+  "author": "startracex",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1"
+}
