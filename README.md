@@ -8,8 +8,8 @@ Control your light, dark, and automatic themes.
 
 ```tsx
 "use client";
-import { ThemeProvider } from "ternary-theme/context.js";
-import type { TernaryTheme } from "ternary-theme/types.js";
+import { ThemeProvider } from "ternary-theme";
+import type { TernaryTheme } from "ternary-theme";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 ```tsx
 "use client";
-import { useTheme } from "ternary-theme/context.js";
+import { useTheme } from "ternary-theme";
 
 export default function Page() {
   const { theme, resolvedTheme, setTheme } = useTheme();
