@@ -9,8 +9,7 @@ Control your light, dark, and automatic themes.
 ```tsx
 "use client";
 import type { ReactNode } from "react";
-import { ThemeProvider } from "ternary-theme";
-import type { TernaryTheme } from "ternary-theme";
+import { ThemeProvider, type TernaryTheme } from "ternary-theme";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
